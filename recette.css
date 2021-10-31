@@ -8,6 +8,7 @@ body {
     margin: 0;
 }
 
+
 div.contenu {
     background-color: white;
     margin: 40px 8px 40px 8px;
@@ -84,6 +85,8 @@ table.info th {
     font-size: 14px;
     vertical-align: bottom;
     padding-bottom: 8px;
+
+    max-width: 40;
 }
 
 img.info {
@@ -111,7 +114,7 @@ div.colonne1 {
     display: inline-block;
 }
 
-div.ingredients p {
+div.encadrer p {
     text-align: center;
     font-size: 14px;
     border: 1px solid lightgray;
